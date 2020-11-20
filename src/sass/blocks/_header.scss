@@ -1,0 +1,27 @@
+header {
+    height: 85px;
+}
+.header {
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    padding: 19px 0 19px 0;
+    &__wrapper {
+        display: flex;
+        color: #242424;
+        font-size: 12px;
+        font-weight: 300;
+        text-align: left;
+    }
+    &__flag {
+        margin-right: 11px;
+    }
+    &__contacts_title {
+        font-weight: 700;
+        line-height: 8px;
+    }
+    &__contacts_text {
+        font-weight: 300;
+        margin-top: 8px;
+    }
+}
