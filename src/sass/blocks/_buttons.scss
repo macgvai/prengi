@@ -1,0 +1,19 @@
+.button {
+    margin-top: 36px;
+    width: 241px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    background-color: $main-color;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    outline: none;
+    &:hover {
+        background-color: $main-color + 20;
+    }
+    &__start {
+        margin-top: 27px;
+    }
+}
